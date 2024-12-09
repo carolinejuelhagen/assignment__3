@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Quiz</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/variables.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap">
+
+</head>
+<body>
+    <!-- Start Screen -->
+    <div class="start-screen screen active">
+        <h1>How well do you know HTML and CSS?</h1>
+        <p>Test your knowledge and see how well you score.</p>
+        <button class="start-button button">Start Quiz</button>
+    </div>
+
+    <!-- Quiz Screen -->
+    <div class="quiz-screen screen hidden">
+        <div class="progress-container">
+            <p class="progress-text">Question 1 / 10</p>
+            <div class="progress-bar">
+                <div class="progress-bar-fill"></div>
+            </div>
+        </div>
+        <div class="question-container">
+            <h2 class="question-text">Question:</h2>
+            <div class="answers-container">
+    <!-- Answer -->
+            </div>
+        </div>
+        <div class="navigation-container">
+            <button class="next-button button hidden">Next</button>
+            <button class="submit-button button hidden">Submit</button>
+        </div>
+    </div>
+
+    <!-- Results Screen -->
+    <div class="results-screen screen hidden">
+        <h1>Your Results</h1>
+        <p class="final-score">Your score: 0/10</p>
+        <button class="review-button button">Review Answers</button>
+        <button class="restart-button button">Retake Quiz</button>
+    </div>
+
+    <!-- Review Screen -->
+    <div class="review-screen screen hidden">
+        <h1>Review Your Answers</h1>
+        <div class="review-container">
+            <!-- Review answers will be dynamically inserted here -->
+        </div>
+        <button class="restart-button-review button">Restart Quiz</button>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+:root {
+/* Colors Screen*/
+--background-color: #f4f4f9; 
+--text-color: #2e2e38; 
+--primary-color: #5a9bf6; 
+--primary-hover-color: #4a88d4; 
+--secondary-color: #eef1f6; 
+--secondary-hover-color: #dde4ed; 
+--highlight-color: #f8c547; 
+
+/* Colors Progress Bar */
+--progress-bar-background: #e0e7f1; 
+--progress-bar-fill: #5a9bf6; 
+
+/* Colors Review page*/
+--correct-answer-background-color: #53d397; 
+--correct-answer-border-color: #41b47a;
+--wrong-answer-background-color: #f8d7da; 
+--wrong-answer-border-color: #f5c6cb; 
+--wrong-answer-color: #721c24;
+
+/* Shadows */
+--box-shadow: 0 4px 12px #00000026; 
+
+/* Font */
+--font-size-base: 16px;
+
+/* Spacing */
+--spacing-xxsmall: 0.25rem;
+--spacing-xsmall: 0.5rem;
+--spacing-small: 0.75rem;
+--spacing-medium: 1rem;
+--spacing-large: 1.5rem;
+--spacing-xlarge: 2rem;
+--spacing-xxlarge: 3rem;
+
+/* Border box */
+--padding-base: 15px;
+--border-radius: 8px; 
+
+/* Shadows */
+--box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); 
+}
