@@ -7,9 +7,7 @@ const reviewScreen = document.querySelector(".review-screen");
 const startButton = document.querySelector(".start-button");
 const nextButton = document.querySelector(".next-button");
 const submitButton = document.querySelector(".submit-button");
-const restartButtons = document.querySelectorAll(
-	".restart-button, .restart-button-review"
-);
+const restartButtons = document.querySelectorAll(".restart-button, .restart-button-review");
 const reviewButton = document.querySelector(".review-button");
 
 const questionText = document.querySelector(".question-text");
